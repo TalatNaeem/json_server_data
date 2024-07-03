@@ -1,0 +1,40 @@
+{
+  "employee":[
+    {
+      "id": 1,
+      "firstname": "Talat",
+      "lastname": "Naeem",
+      "email": "talat@gmail.com",
+      "dob": "2000-06-26T19:00:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "companyname": "Systems",
+      "experience": 3,
+      "package": 12
+    },
+    {
+      "firstname": "ai",
+      "lastname": "ai",
+      "email": "ai@gmail.com",
+      "dob": "2024-07-08T19:00:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "companyname": "123e",
+      "experience": 1,
+      "package": 111112,
+      "id": 3
+    },
+    {
+      "firstname": "alif",
+      "lastname": "alif",
+      "email": "alif@gmail.com",
+      "dob": "2024-06-30T19:00:00.000Z",
+      "gender": "male",
+      "education": "Matric",
+      "companyname": "google",
+      "experience": 3,
+      "package": 12342,
+      "id": 4
+    }
+  ]
+}
