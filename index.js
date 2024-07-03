@@ -1,12 +1,13 @@
-const jsonServer = require("json-server"); // importing json-server library
+const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router("db.json");
+const router = jsonServer.router('db.json');  // Make sure 'db.json' path is correct
 const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 3000; //  chose port from here like 8080, 3001
+
+const port = process.env.PORT || 3000;  // Vercel dynamically assigns the port
 
 server.use(middlewares);
 server.use(router);
 
 server.listen(port, () => {
-  console.log('JSON Server is running');
+  console.log('JSON Server is running on port', port);
 });
